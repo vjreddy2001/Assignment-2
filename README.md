@@ -4,7 +4,7 @@
 ### Background
 Welcome to the world of Python programming. I will be using some of the concepts of Python that I learned to complete the PyBank casestudy related to the company ABC Inc. The data I will be using is from Jan 2010 to Feb 2017. 
 
-![abc inc](https://user-images.githubusercontent.com/83671629/119518260-5e286c80-bd46-11eb-9305-f3a1fd708815.png)
+![abs](https://user-images.githubusercontent.com/83671629/119548495-452eb400-bd64-11eb-99ea-e99c4ac85e15.png)
 
 
 ## To Begin with
@@ -48,26 +48,37 @@ The resulting analysis will look similar to the following:
   Greatest Decrease in Profits: Sep-2013 ($-2196167)
   
   ## Calculations
+  ![Rev vs Profit](https://user-images.githubusercontent.com/83671629/119548561-54adfd00-bd64-11eb-9cca-4c766fec306f.jpg)
+
+ 1. Total number of months were calculated by using the "len()" built in function of Python. This gives the numbers of recods in the file.
   
-  Total number of months were calculated by using the "len()" built in function of Python. This gives the numbers of recods in the file.
+ 2. Total sum total of all the profit and losses during the period was calculated by looping over each record using "While" loop and adding the profit/losses field to a variable.
   
-  Total sum total of all the profit and losses during the period was calculated by looping over each record using "While" loop and adding the profit/losses field to a variable.
+ 3. Average changes is by finding the change in profit/losses between the last month and the first month. This is divided by the number of changes in the profit/losses (i.e total recodes less one).
   
-  Average changes is by finding the change in profit/losses between the last month and the first month. This is divided by the number of changes in the profit/losses (i.e total recodes less one).
-  
-  Here are some link to help understand the calcylation of Average Change.
- 
-  https://byjus.com/average-rate-of-change-formula/
-  https://www.omnicalculator.com/math/average-rate-of-change
-  
-  https://mathbitsnotebook.com/Algebra2/FunctionGraphs/FGAverageRateChange.html
+      Here are some link to help understand the calcylation of Average Change.
+
+      https://byjus.com/average-rate-of-change-formula/
+      https://www.omnicalculator.com/math/average-rate-of-change
+      https://mathbitsnotebook.com/Algebra2/FunctionGraphs/FGAverageRateChange.html
   
   
-  The greatest Increase in the profit is calculated using the built in Python function max().
-  The greatest decrease in the profit is calculated using the built in Python function min().
-  I created an empty list to hold all the month by month changes over the entire period.
-  Using a While loop I appended each diffrence in profit to this empty list.
-  The 
+  4. The greatest Increase in the profit is calculated using the built in Python function max().
+  
+     The greatest decrease in the profit is calculated using the built in Python function min().
+  
+      I created an empty list to hold all the month by month changes over the entire period.
+      Using a While loop I appended each diffrence in profit to this empty list. I used "iloc" function to locate the row and colu,m of the data I need to extract.
+    The max() and min() functions are used on this list to generate the greatest increase and the greatest decrease in profits.
+    
+  5. Using the "iloc" function I extracted date to a variable from the maxi() and mini(). I was able to print this date along with the value.
+  
+  
+    
+    
+    
+  
+  
   
   
 
