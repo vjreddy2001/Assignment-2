@@ -47,5 +47,21 @@ The resulting analysis will look similar to the following:
   
   Greatest Decrease in Profits: Sep-2013 ($-2196167)
   
+  ## Calculations
+  
+  Total number of months were calculated by using the "len()" built in function of Python. This gives the numbers of recods in the file.
+  
+  Total sum total of all the profit and losses during the period was calculated by looping over each record using "While" loop and adding the profit/losses field to a variable.
+  
+  Average changes is by finding the change in profit/losses between the last month and the first month. This is divided by the number of changes in the profit/losses (i.e total recodes less one).
+  
+  Here are some link to help understand the calcylation of Average Change.
+ 
+  https://byjus.com/average-rate-of-change-formula/
+  https://www.omnicalculator.com/math/average-rate-of-change
+  
+  The greatest Increase in the profit 
+  
+  
 
 ## 
