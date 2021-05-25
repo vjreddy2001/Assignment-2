@@ -2,7 +2,7 @@
 # MyBank
 ## Automating Day Job using Python
 ### Background
-Welcome to the world of Python programming. I will be using some of the concepts of Python that I learned to complete the PyBank casestudy related to the company ABC Inc. The datadet I will be using is from Jan 2010 to Feb 2017. 
+Welcome to the world of Python programming. I will be using some of the concepts of Python that I learned to complete the PyBank casestudy related to the company ABC Inc. The data I will be using is from Jan 2010 to Feb 2017. 
 
 ![abc inc](https://user-images.githubusercontent.com/83671629/119518260-5e286c80-bd46-11eb-9305-f3a1fd708815.png)
 
@@ -60,7 +60,14 @@ The resulting analysis will look similar to the following:
   https://byjus.com/average-rate-of-change-formula/
   https://www.omnicalculator.com/math/average-rate-of-change
   
-  The greatest Increase in the profit 
+  https://mathbitsnotebook.com/Algebra2/FunctionGraphs/FGAverageRateChange.html
+  
+  
+  The greatest Increase in the profit is calculated using the built in Python function max().
+  The greatest decrease in the profit is calculated using the built in Python function min().
+  I created an empty list to hold all the month by month changes over the entire period.
+  Using a While loop I appended each diffrence in profit to this empty list.
+  The 
   
   
 
