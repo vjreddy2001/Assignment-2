@@ -12,5 +12,5 @@ Welcome to the world of Python programming. I will be using some of the concepts
   5) I pushed all the changes to GitHub
 
 ## PyBank
-![PyBank](Revenue_Analytics_Logo.jpg)
+!(Revenue_Analytics_Logo.jpg)
 
