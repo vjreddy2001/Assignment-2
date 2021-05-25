@@ -4,6 +4,7 @@
 Welcome to the world of Python programming. I will be using some of the concepts that I learned to complete the PyBank casestudy. 
 
 ## To Begin with
-  I created a new GitHub repo and cloned it to my computer
-  In my local git repository , I created a directory **PyBank**
+  1) I created a new GitHub repo and cloned it to my computer.
+  
+  2) In my local git repository, I created a directory named **PyBank**.
 
