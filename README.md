@@ -1,3 +1,4 @@
+
 # MyBank
 ## Automating Day Job with Python
 ### Background
@@ -12,5 +13,7 @@ Welcome to the world of Python programming. I will be using some of the concepts
   5) I pushed all the changes to GitHub
 
 ## PyBank
- ![Rev](/images/Revenue_Analytics_Logo)
+![Rev](https://user-images.githubusercontent.com/83671629/119515011-7d71ca80-bd43-11eb-9383-d5c57a2a9e99.jpg)
+
+In this casestudy, I will be creating a Python script for analyzing the financial records of the company. The required Financial dataset is in this file: [revenue_data.csv](PyBank/revenue_data.csv). This dataset is composed of two columns, Date and Profit/Losses. 
 
