@@ -73,7 +73,7 @@ The resulting analysis will look similar to the following:
     
   5. Using the "iloc" function I extracted date to a variable from the maxi() and mini(). I was able to print this date along with the value.
   
-  
+  6. Finally I created and txt file and all these outputs were exported to Financial_anlysis.txt 
     
     
     
@@ -82,4 +82,4 @@ The resulting analysis will look similar to the following:
   
   
 
-## 
+
