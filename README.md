@@ -1,5 +1,5 @@
 
-# MyBank
+# PyBank
 ## Automating Day Job using Python
 ### Background
 Welcome to the world of Python programming. I will be using some of the concepts of Python that I learned to complete the PyBank case study related to the company ABC Inc. The data I will be using is from Jan 2010 to Feb 2017. 
